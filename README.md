@@ -1,53 +1,11 @@
 # Top 5000 Songs Dataset
 
-This dataset contains details of the top 5000 songs based on popularity. It’s mainly intended for analysis and experimentation with music-related data.
+This dataset contains information on the top 5000 songs based on popularity at the time the data was collected. Each row represents a single song along with basic metadata about the track and the artist. The dataset is intended for analysis and experimentation rather than as a definitive or constantly updated ranking of music.
 
-Each row corresponds to one song, along with information about the artist and various song attributes.
+The data includes a mix of song details and audio-related features. This covers things like the song title, artist name, album, genre where available, popularity or ranking, release year, and duration. It also includes audio features such as energy, danceability, tempo, and loudness. Some columns may contain missing values or inconsistencies, particularly for genre information.
 
-Columns
+Popularity in this dataset should be interpreted as relative rather than absolute. Rankings and scores reflect a snapshot in time and may not represent long-term success or cultural impact. Genre labels are not always precise, as many songs do not fit neatly into a single category.
 
-The dataset includes a mix of metadata and audio features, such as:
+The dataset has not been aggressively cleaned and reflects the kind of imperfections commonly found in real-world data. This makes it suitable for exploratory analysis, visualisation, and machine learning tasks such as clustering, prediction, or recommendation.
 
-Song name
-
-Artist
-
-Album
-
-Genre
-
-Popularity / ranking
-
-Release year
-
-Duration
-
-Audio features like energy, danceability, tempo, loudness, etc.
-
-Some fields may be missing or inconsistent, especially genre-related columns.
-
-Notes on the data
-
-The ranking reflects popularity at the time the data was collected
-
-Popularity should be treated as relative, not absolute
-
-Genre labels are not always reliable and may overlap
-
-The dataset isn’t perfectly clean and hasn’t been over-engineered on purpose.
-
-Use cases
-
-This dataset can be used for:
-
-Exploratory data analysis
-
-Visualisation
-
-Machine learning tasks (clustering, prediction, recommendation)
-
-General practice with real-world data
-
-Format
-
-The data is provided as a CSV file and can be loaded using standard tools such as pandas or spreadsheet software.
+The data is provided in CSV format and can be loaded using standard data analysis tools such as pandas or spreadsheet software.
