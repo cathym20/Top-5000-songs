@@ -1,7 +1,3 @@
-Ahh okay — you want the **same formatting with the horizontal lines** as well. Got it.
-
-Here it is, with section dividers and the same tone:
-
 ---
 
 ## Top 5000 Songs Analysis
@@ -55,6 +51,4 @@ This project was implemented in Python using Pandas and NumPy for data handling,
 This project demonstrates the application of data analysis techniques to music data, with an emphasis on understanding patterns, feature influence, and real-world data limitations rather than focusing solely on predictive performance.
 
 ---
-
-If you want it **even closer to the exact wording style** of your Movie vs TV project, paste one paragraph you really like and I’ll mirror it line-by-line.
 
